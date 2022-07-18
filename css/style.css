@@ -150,4 +150,15 @@ body {
 .content__title {
   color: rgb(221, 188, 0);
   margin: 0 0 10px 0;
+}
+.content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  transform: translate(0, -100%);
+  background-image: linear-gradient(rgba(44, 65, 73, 0), rgb(44, 65, 73));
+  pointer-events: none;
 }/*# sourceMappingURL=style.css.map */
